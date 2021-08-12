@@ -8,7 +8,7 @@ export no_proxy=${no_proxy:-$NO_PROXY}
 
 # Which image should we use
 #SNAP=${1:-current-tripleo}
-IPA_BASEURI=${IPA_BASEURI:-https://baremetalironic.jfrog.io/artifactory/default-generic-local/}
+IPA_BASEURI=${IPA_BASEURI:-https://baremetalironic.jfrog.io/artifactory/default-generic-local}
 
 FILENAME=ironic-python-agent
 FILENAME_EXT=.tar
